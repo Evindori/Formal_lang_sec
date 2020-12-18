@@ -13,7 +13,7 @@ using namespace std;
 class Algo {
 public:
 	Algo(vector<pair<char, string>> grammar, set<char> grammar_symbols, char start_symbol);
-	void fit();//grammar содержится в самом algo, поэтому в ее передае нет нужды
+	void fit();//grammar содержится в самом algo, поэтому в ее передаче в качестве ар-та нет нужды
 	bool predict(string s);
 
 private:
